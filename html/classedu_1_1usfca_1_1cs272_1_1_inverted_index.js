@@ -1,0 +1,26 @@
+var classedu_1_1usfca_1_1cs272_1_1_inverted_index =
+[
+    [ "Score", "classedu_1_1usfca_1_1cs272_1_1_inverted_index_1_1_score.html", "classedu_1_1usfca_1_1cs272_1_1_inverted_index_1_1_score" ],
+    [ "InvertedIndex", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#a60fd14186dffc94cd7f4506d047ac50d", null ],
+    [ "add", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#a41f2b5b5a25351f73951ef9e51db73bf", null ],
+    [ "addAll", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#a2585f46c7a86cf2f2d70f76b144cc5e5", null ],
+    [ "addIndex", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#a47dd70a53fc2bf65aae41a8c90670ed9", null ],
+    [ "exactSearch", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#ae7483498c9c9a822c3788eb93dce17ce", null ],
+    [ "getCounts", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#a6929be7f27efc38375b4a71c1faf3fa1", null ],
+    [ "getLocations", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#aa439841b191b86b9d1ee50c25c321b08", null ],
+    [ "getPositions", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#af3415ac7bd37dc55fc37c5a55f45d34f", null ],
+    [ "getWords", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#a8d09e0397c1e718db762506ba3dfbd69", null ],
+    [ "hasCount", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#a34c475daf0b9ee6398a3bf63c239183e", null ],
+    [ "hasLocation", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#abb5f3a26a0ab2a8b8ad6d2e8802fe8b6", null ],
+    [ "hasPosition", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#ac2fe88705f5e252afc7f94c54b4fa1d4", null ],
+    [ "hasWord", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#a336d8e5a7b221cd63837f740f85e9be4", null ],
+    [ "isEmpty", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#af5dd3c51001e3f7b328224ce88879d43", null ],
+    [ "numOfLocations", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#afc5fa6f6e46495e46edb69b80623feb6", null ],
+    [ "numOfPositions", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#a8107f76ac6c7cf20cda8249cfce85c94", null ],
+    [ "partialSearch", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#a2b6667f4c7ab2b897f4d7cf5b6dc6f48", null ],
+    [ "search", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#a693a6585f177360adcb83373becce85b", null ],
+    [ "size", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#aa8035422d8dc66d12e3fd536cbed57dc", null ],
+    [ "sizeOfCounts", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#a739297175c905bd6e39e8a8ee01514b0", null ],
+    [ "toJson", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#a04de6550f15310090c106a348457a173", null ],
+    [ "toString", "classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#af634a06213778ca94875537e20bc2007", null ]
+];
