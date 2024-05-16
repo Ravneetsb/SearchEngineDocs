@@ -27,6 +27,9 @@ var hierarchy =
     [ "edu.usfca.cs272.WebCrawler", "classedu_1_1usfca_1_1cs272_1_1_web_crawler.html", null ],
     [ "edu.usfca.cs272.WorkQueue", "classedu_1_1usfca_1_1cs272_1_1_work_queue.html", null ],
     [ "HttpServlet", null, [
-      [ "edu.usfca.cs272.SearchServer.ShutdownServlet", "classedu_1_1usfca_1_1cs272_1_1_search_server_1_1_shutdown_servlet.html", null ]
+      [ "edu.usfca.cs272.SearchServer.ShutdownServlet", "classedu_1_1usfca_1_1cs272_1_1_search_server_1_1_shutdown_servlet.html", null ],
+      [ "edu.usfca.cs272.SearchServlet", "classedu_1_1usfca_1_1cs272_1_1_search_servlet.html", null ],
+      [ "edu.usfca.cs272.SettingsServlet", "classedu_1_1usfca_1_1cs272_1_1_settings_servlet.html", null ],
+      [ "edu.usfca.cs272.ThemeServlet", "classedu_1_1usfca_1_1cs272_1_1_theme_servlet.html", null ]
     ] ]
 ];
