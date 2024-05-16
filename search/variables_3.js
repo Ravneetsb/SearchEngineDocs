@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['log_0',['log',['../classedu_1_1usfca_1_1cs272_1_1_driver.html#a10266f7a4170f741a9a38448eff822ed',1,'edu.usfca.cs272.Driver.log'],['../classedu_1_1usfca_1_1cs272_1_1_web_crawler.html#a986036ee63e19a87e3a307ac6ec02e04',1,'edu.usfca.cs272.WebCrawler.log']]]
+  ['get_5ftop_5ffive_5fsearches_0',['GET_TOP_FIVE_SEARCHES',['../classedu_1_1usfca_1_1cs272_1_1_database_connector.html#a881b6f838fb823a0a2393924de8a7b88',1,'edu::usfca::cs272::DatabaseConnector']]]
 ];

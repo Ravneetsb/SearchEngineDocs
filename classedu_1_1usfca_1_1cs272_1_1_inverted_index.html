@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Search Engine: edu.usfca.cs272.InvertedIndex Class Reference</title>
+<title>VIBE: edu.usfca.cs272.InvertedIndex Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,8 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Search Engine<span id="projectnumber">&#160;5.1</span>
+   <div id="projectname">VIBE<span id="projectnumber">&#160;5.1</span>
    </div>
+   <div id="projectbrief">A multi-threaded web crawling search engine</div>
   </td>
  </tr>
  </tbody>
@@ -161,8 +162,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af634a06213778ca94875537e20bc2007"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>InvertedIndex Data Structure for the Search Engine Project.</p>
-<dl class="section author"><dt>Author</dt><dd>Ravneet Singh Bhatia, CS 272 Software Development (University of San Francisco) </dd></dl>
+<div class="textblock"><p>Inverted Index Data Structure.</p>
+<dl class="section author"><dt>Author</dt><dd>Ravneet Singh Bhatia </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>Spring 2024 </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a60fd14186dffc94cd7f4506d047ac50d" name="a60fd14186dffc94cd7f4506d047ac50d"></a>
@@ -179,7 +180,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructor for InvertedIndex </p>
+<p>Creates a new inverted index. </p>
 
 </div>
 </div>
@@ -207,7 +208,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>add stem to index.</p>
+<p>adds a stem to the index. updates the count after adding the stem to the index.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">stem</td><td>word stem </td></tr>
@@ -268,7 +269,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Adds data from another invertedIndex to this index.</p>
+<p>Copies data from another inverted index into this index.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">other</td><td>a different inverted index </td></tr>

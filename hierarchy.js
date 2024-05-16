@@ -23,7 +23,6 @@ var hierarchy =
       [ "edu.usfca.cs272.QueryProcessor", "classedu_1_1usfca_1_1cs272_1_1_query_processor.html", null ],
       [ "edu.usfca.cs272.ThreadSafeQueryProcessor", "classedu_1_1usfca_1_1cs272_1_1_thread_safe_query_processor.html", null ]
     ] ],
-    [ "edu.usfca.cs272.ResetServlet", "classedu_1_1usfca_1_1cs272_1_1_reset_servlet.html", null ],
     [ "edu.usfca.cs272.SearchServer", "classedu_1_1usfca_1_1cs272_1_1_search_server.html", null ],
     [ "edu.usfca.cs272.WebCrawler", "classedu_1_1usfca_1_1cs272_1_1_web_crawler.html", null ],
     [ "edu.usfca.cs272.WorkQueue", "classedu_1_1usfca_1_1cs272_1_1_work_queue.html", null ],

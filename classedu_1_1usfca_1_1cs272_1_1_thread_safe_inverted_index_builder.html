@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Search Engine: edu.usfca.cs272.ThreadSafeInvertedIndexBuilder Class Reference</title>
+<title>VIBE: edu.usfca.cs272.ThreadSafeInvertedIndexBuilder Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,8 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Search Engine<span id="projectnumber">&#160;5.1</span>
+   <div id="projectname">VIBE<span id="projectnumber">&#160;5.1</span>
    </div>
+   <div id="projectbrief">A multi-threaded web crawling search engine</div>
   </td>
  </tr>
  </tbody>
@@ -132,7 +133,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a2345ba33a4a649fa33801783711987bf inherit pub_static_methods_classedu_1_1usfca_1_1cs272_1_1_inverted_index_builder"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Thread Safe implementation of InvertedIndexBuilder </p>
+<div class="textblock"><p>Thread-safe version of the Inverted index</p>
+<dl class="section author"><dt>Author</dt><dd>Ravneet Singh Bhatia </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>Spring 2024 </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4a9d91e1489d88e0a93a9346522cbebf" name="a4a9d91e1489d88e0a93a9346522cbebf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a9d91e1489d88e0a93a9346522cbebf">&#9670;&#160;</a></span>ThreadSafeInvertedIndexBuilder()</h2>
@@ -152,7 +155,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructor</p>
+<p>Creates a new ThreadSafeInvertedIndexBuilder</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">invertedIndex</td><td>the index. </td></tr>
@@ -178,7 +181,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Build function for InvertedIndex</p>
+<p>Triggers the build for the index.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">input</td><td>Path of input file. </td></tr>

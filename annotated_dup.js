@@ -17,7 +17,6 @@ var annotated_dup =
           [ "MultiReaderLock", "classedu_1_1usfca_1_1cs272_1_1_multi_reader_lock.html", "classedu_1_1usfca_1_1cs272_1_1_multi_reader_lock" ],
           [ "Processor", "interfaceedu_1_1usfca_1_1cs272_1_1_processor.html", "interfaceedu_1_1usfca_1_1cs272_1_1_processor" ],
           [ "QueryProcessor", "classedu_1_1usfca_1_1cs272_1_1_query_processor.html", "classedu_1_1usfca_1_1cs272_1_1_query_processor" ],
-          [ "ResetServlet", "classedu_1_1usfca_1_1cs272_1_1_reset_servlet.html", null ],
           [ "SearchServer", "classedu_1_1usfca_1_1cs272_1_1_search_server.html", "classedu_1_1usfca_1_1cs272_1_1_search_server" ],
           [ "ThreadSafeInvertedIndex", "classedu_1_1usfca_1_1cs272_1_1_thread_safe_inverted_index.html", "classedu_1_1usfca_1_1cs272_1_1_thread_safe_inverted_index" ],
           [ "ThreadSafeInvertedIndexBuilder", "classedu_1_1usfca_1_1cs272_1_1_thread_safe_inverted_index_builder.html", "classedu_1_1usfca_1_1cs272_1_1_thread_safe_inverted_index_builder" ],
