@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">VIBE<span id="projectnumber">&#160;5.1</span>
+   <div id="projectname">VIBE<span id="projectnumber">&#160;v5.1.6</span>
    </div>
-   <div id="projectbrief">A multi-threaded web crawling search engine</div>
+   <div id="projectbrief">Search Engine</div>
   </td>
  </tr>
  </tbody>
@@ -108,12 +108,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af4409a66690c55c19171f6a52b463f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af618e93574d37ba527db052f7aa9533f" id="r_af618e93574d37ba527db052f7aa9533f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af618e93574d37ba527db052f7aa9533f">DatabaseConnector</a> (Path path)  throws FileNotFoundException, IOException </td></tr>
 <tr class="separator:af618e93574d37ba527db052f7aa9533f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2bc1ca37c5a06d3e414e9680cd20bbe" id="r_ae2bc1ca37c5a06d3e414e9680cd20bbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2bc1ca37c5a06d3e414e9680cd20bbe">createTables</a> ()  throws SQLException </td></tr>
+<tr class="separator:ae2bc1ca37c5a06d3e414e9680cd20bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a612bb597703c367154bd0db226e0f2ce" id="r_a612bb597703c367154bd0db226e0f2ce"><td class="memItemLeft" align="right" valign="top">Connection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a612bb597703c367154bd0db226e0f2ce">getConnection</a> ()  throws SQLException </td></tr>
 <tr class="separator:a612bb597703c367154bd0db226e0f2ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a150617f5ab784e9a96ae51d1e366f359" id="r_a150617f5ab784e9a96ae51d1e366f359"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a150617f5ab784e9a96ae51d1e366f359">insertSearch</a> (Connection db, String query)  throws SQLException </td></tr>
 <tr class="separator:a150617f5ab784e9a96ae51d1e366f359"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af95b3644d517e4ce1393125ac64bc1a9" id="r_af95b3644d517e4ce1393125ac64bc1a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af95b3644d517e4ce1393125ac64bc1a9">insertResults</a> (Connection db, String <a class="el" href="#a2bd7f872b8d17a91fbb8b49181d4a429">uri</a>)  throws SQLException </td></tr>
+<tr class="separator:af95b3644d517e4ce1393125ac64bc1a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc3e4a975cf5a550d7cfa23352b4ea74" id="r_abc3e4a975cf5a550d7cfa23352b4ea74"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc3e4a975cf5a550d7cfa23352b4ea74">getTopFiveSearches</a> (Connection db)  throws SQLException </td></tr>
 <tr class="separator:abc3e4a975cf5a550d7cfa23352b4ea74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfc3b72ec7bbfe0102b8b498b090b4c5" id="r_abfc3b72ec7bbfe0102b8b498b090b4c5"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfc3b72ec7bbfe0102b8b498b090b4c5">getTopFiveResults</a> (Connection db)  throws SQLException </td></tr>
+<tr class="separator:abfc3b72ec7bbfe0102b8b498b090b4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bd068a2392e3a0dcf59ccacacf3b45e" id="r_a6bd068a2392e3a0dcf59ccacacf3b45e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bd068a2392e3a0dcf59ccacacf3b45e">resetMetaData</a> (Connection db)  throws SQLException </td></tr>
 <tr class="separator:a6bd068a2392e3a0dcf59ccacacf3b45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8d8ce5bb39f933beecbadf07ee1a9f7" id="r_af8d8ce5bb39f933beecbadf07ee1a9f7"><td class="memItemLeft" align="right" valign="top">Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8d8ce5bb39f933beecbadf07ee1a9f7">getTables</a> (Connection db)  throws SQLException </td></tr>
@@ -133,10 +139,12 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:adbf10d9810cd6746378610933682668f" id="r_adbf10d9810cd6746378610933682668f"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbf10d9810cd6746378610933682668f">INSERT_SEARCHES</a></td></tr>
-<tr class="separator:adbf10d9810cd6746378610933682668f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a881b6f838fb823a0a2393924de8a7b88" id="r_a881b6f838fb823a0a2393924de8a7b88"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a881b6f838fb823a0a2393924de8a7b88">GET_TOP_FIVE_SEARCHES</a></td></tr>
-<tr class="separator:a881b6f838fb823a0a2393924de8a7b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7651a72f4baa4e428da5b3796d809cb2" id="r_a7651a72f4baa4e428da5b3796d809cb2"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7651a72f4baa4e428da5b3796d809cb2">INSERT</a></td></tr>
+<tr class="separator:a7651a72f4baa4e428da5b3796d809cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a157cadda3ca856e3f56e9bafaf8a464d" id="r_a157cadda3ca856e3f56e9bafaf8a464d"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a157cadda3ca856e3f56e9bafaf8a464d">GET_TOP_FIVE</a></td></tr>
+<tr class="separator:a157cadda3ca856e3f56e9bafaf8a464d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f7687419c6bf46c60c6cd50525f5b24" id="r_a0f7687419c6bf46c60c6cd50525f5b24"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f7687419c6bf46c60c6cd50525f5b24">CREATE_TABLE</a></td></tr>
+<tr class="separator:a0f7687419c6bf46c60c6cd50525f5b24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class is designed to test your database configuration. You need to have a database.properties file with username, password, database, and hostname. You must also have the tunnel to stargate.cs.usfca.edu running if you are off-campus.</p>
@@ -202,6 +210,30 @@ Ravneet Singh Bhatia </dd></dl>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae2bc1ca37c5a06d3e414e9680cd20bbe" name="ae2bc1ca37c5a06d3e414e9680cd20bbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2bc1ca37c5a06d3e414e9680cd20bbe">&#9670;&#160;</a></span>createTables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void edu.usfca.cs272.DatabaseConnector.createTables </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> throws SQLException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates the required sql tables if they do not already exist.</p>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">SQLException</td><td>if there is a problem connecting to the database. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a612bb597703c367154bd0db226e0f2ce" name="a612bb597703c367154bd0db226e0f2ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a612bb597703c367154bd0db226e0f2ce">&#9670;&#160;</a></span>getConnection()</h2>
 
@@ -258,6 +290,36 @@ Ravneet Singh Bhatia </dd></dl>
 
 </div>
 </div>
+<a id="abfc3b72ec7bbfe0102b8b498b090b4c5" name="abfc3b72ec7bbfe0102b8b498b090b4c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfc3b72ec7bbfe0102b8b498b090b4c5">&#9670;&#160;</a></span>getTopFiveResults()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; String &gt; edu.usfca.cs272.DatabaseConnector.getTopFiveResults </td>
+          <td>(</td>
+          <td class="paramtype">Connection</td>          <td class="paramname"><span class="paramname"><em>db</em></span></td><td>)</td>
+          <td> throws SQLException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executes the GET_TOP_FIVE query to get the 5 most visited results. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">db</td><td>the active database connection. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>list containing the top 5 most visited results. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">SQLException</td><td>if unable to execute the query.s </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="abc3e4a975cf5a550d7cfa23352b4ea74" name="abc3e4a975cf5a550d7cfa23352b4ea74"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abc3e4a975cf5a550d7cfa23352b4ea74">&#9670;&#160;</a></span>getTopFiveSearches()</h2>
 
@@ -272,7 +334,7 @@ Ravneet Singh Bhatia </dd></dl>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Executes the GET_TOP_FIVE_SEARCHES query.</p>
+<p>Executes the GET_TOP_FIVE query to get the 5 most searched queries.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">db</td><td>The active database connection </td></tr>
@@ -280,6 +342,41 @@ Ravneet Singh Bhatia </dd></dl>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>list containing the top 5 queries. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">SQLException</td><td>if unable to execute the query. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af95b3644d517e4ce1393125ac64bc1a9" name="af95b3644d517e4ce1393125ac64bc1a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af95b3644d517e4ce1393125ac64bc1a9">&#9670;&#160;</a></span>insertResults()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void edu.usfca.cs272.DatabaseConnector.insertResults </td>
+          <td>(</td>
+          <td class="paramtype">Connection</td>          <td class="paramname"><span class="paramname"><em>db</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>uri</em></span>&#160;) throws SQLException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executes INSERT for the results table.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">db</td><td>the database connection </td></tr>
+    <tr><td class="paramname">uri</td><td>the uri to store. </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">SQLException</td><td>if unable to execute the query. </td></tr>
@@ -307,7 +404,7 @@ Ravneet Singh Bhatia </dd></dl>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Executes the INSERT_SEARCH query.</p>
+<p>Executes the INSERT for the queries table..</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">db</td><td>The active database connection </td></tr>
@@ -414,8 +511,8 @@ Ravneet Singh Bhatia </dd></dl>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a881b6f838fb823a0a2393924de8a7b88" name="a881b6f838fb823a0a2393924de8a7b88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a881b6f838fb823a0a2393924de8a7b88">&#9670;&#160;</a></span>GET_TOP_FIVE_SEARCHES</h2>
+<a id="a0f7687419c6bf46c60c6cd50525f5b24" name="a0f7687419c6bf46c60c6cd50525f5b24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f7687419c6bf46c60c6cd50525f5b24">&#9670;&#160;</a></span>CREATE_TABLE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -424,7 +521,7 @@ Ravneet Singh Bhatia </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String edu.usfca.cs272.DatabaseConnector.GET_TOP_FIVE_SEARCHES</td>
+          <td class="memname">final String edu.usfca.cs272.DatabaseConnector.CREATE_TABLE</td>
         </tr>
       </table>
   </td>
@@ -434,13 +531,37 @@ Ravneet Singh Bhatia </dd></dl>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">      <span class="stringliteral">&quot;select query, count from queries order by count desc limit 5;&quot;</span></div>
+<div class="line">          <span class="stringliteral">&quot;create table if not exists %s( %s varchar(255) primary key , count int not null);&quot;</span></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a157cadda3ca856e3f56e9bafaf8a464d" name="a157cadda3ca856e3f56e9bafaf8a464d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a157cadda3ca856e3f56e9bafaf8a464d">&#9670;&#160;</a></span>GET_TOP_FIVE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String edu.usfca.cs272.DatabaseConnector.GET_TOP_FIVE</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">      <span class="stringliteral">&quot;select %s, count from %s order by count desc limit 5;&quot;</span></div>
 </div><!-- fragment --><p>SQL query to get the top 5 queries searched in the server. </p>
 
 </div>
 </div>
-<a id="adbf10d9810cd6746378610933682668f" name="adbf10d9810cd6746378610933682668f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbf10d9810cd6746378610933682668f">&#9670;&#160;</a></span>INSERT_SEARCHES</h2>
+<a id="a7651a72f4baa4e428da5b3796d809cb2" name="a7651a72f4baa4e428da5b3796d809cb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7651a72f4baa4e428da5b3796d809cb2">&#9670;&#160;</a></span>INSERT</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -449,7 +570,7 @@ Ravneet Singh Bhatia </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String edu.usfca.cs272.DatabaseConnector.INSERT_SEARCHES</td>
+          <td class="memname">final String edu.usfca.cs272.DatabaseConnector.INSERT</td>
         </tr>
       </table>
   </td>
@@ -459,7 +580,7 @@ Ravneet Singh Bhatia </dd></dl>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">      <span class="stringliteral">&quot;insert into queries (query, count) values (?, 1) on duplicate key update count = count + 1;&quot;</span></div>
+<div class="line">      <span class="stringliteral">&quot;insert into %s (%s, count) values (?, 1) on duplicate key update count = count + 1;&quot;</span></div>
 </div><!-- fragment --><p>SQL query to insert into the queries table every time a query is called in the server. if a query is seen for the first time, the count is set to 1 if a query has already been seen, the count is incremented. </p>
 
 </div>

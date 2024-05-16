@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['get_5ftop_5ffive_5fsearches_0',['GET_TOP_FIVE_SEARCHES',['../classedu_1_1usfca_1_1cs272_1_1_database_connector.html#a881b6f838fb823a0a2393924de8a7b88',1,'edu::usfca::cs272::DatabaseConnector']]],
+  ['get_5ftop_5ffive_0',['GET_TOP_FIVE',['../classedu_1_1usfca_1_1cs272_1_1_database_connector.html#a157cadda3ca856e3f56e9bafaf8a464d',1,'edu::usfca::cs272::DatabaseConnector']]],
   ['getconnection_1',['getConnection',['../classedu_1_1usfca_1_1cs272_1_1_database_connector.html#a612bb597703c367154bd0db226e0f2ce',1,'edu::usfca::cs272::DatabaseConnector']]],
   ['getcount_2',['getCount',['../classedu_1_1usfca_1_1cs272_1_1_inverted_index_1_1_score.html#a3e1dd095ed99c3c16392c2c544a2d808',1,'edu::usfca::cs272::InvertedIndex::Score']]],
   ['getcounts_3',['getCounts',['../classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#a6929be7f27efc38375b4a71c1faf3fa1',1,'edu.usfca.cs272.InvertedIndex.getCounts()'],['../classedu_1_1usfca_1_1cs272_1_1_thread_safe_inverted_index.html#a225f8334beb56e133b2ea7646fc686eb',1,'edu.usfca.cs272.ThreadSafeInvertedIndex.getCounts()']]],
@@ -16,6 +16,7 @@ var searchData=
   ['getstatuscode_13',['getStatusCode',['../classedu_1_1usfca_1_1cs272_1_1_html_fetcher.html#a8828f6bd13c9e40c2db4c75cc1e7f049',1,'edu::usfca::cs272::HtmlFetcher']]],
   ['getstring_14',['getString',['../classedu_1_1usfca_1_1cs272_1_1_argument_parser.html#ac2d9ca49b57e38b9eff64be84d32efaa',1,'edu.usfca.cs272.ArgumentParser.getString(String flag, String backup)'],['../classedu_1_1usfca_1_1cs272_1_1_argument_parser.html#a4af3cb43a41c1da87ced0e3f1a605121',1,'edu.usfca.cs272.ArgumentParser.getString(String flag)']]],
   ['gettables_15',['getTables',['../classedu_1_1usfca_1_1cs272_1_1_database_connector.html#af8d8ce5bb39f933beecbadf07ee1a9f7',1,'edu::usfca::cs272::DatabaseConnector']]],
-  ['gettopfivesearches_16',['getTopFiveSearches',['../classedu_1_1usfca_1_1cs272_1_1_database_connector.html#abc3e4a975cf5a550d7cfa23352b4ea74',1,'edu::usfca::cs272::DatabaseConnector']]],
-  ['getwords_17',['getWords',['../classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#a8d09e0397c1e718db762506ba3dfbd69',1,'edu.usfca.cs272.InvertedIndex.getWords()'],['../classedu_1_1usfca_1_1cs272_1_1_thread_safe_inverted_index.html#a463905cdcc229e091ee2931ee180c849',1,'edu.usfca.cs272.ThreadSafeInvertedIndex.getWords()']]]
+  ['gettopfiveresults_16',['getTopFiveResults',['../classedu_1_1usfca_1_1cs272_1_1_database_connector.html#abfc3b72ec7bbfe0102b8b498b090b4c5',1,'edu::usfca::cs272::DatabaseConnector']]],
+  ['gettopfivesearches_17',['getTopFiveSearches',['../classedu_1_1usfca_1_1cs272_1_1_database_connector.html#abc3e4a975cf5a550d7cfa23352b4ea74',1,'edu::usfca::cs272::DatabaseConnector']]],
+  ['getwords_18',['getWords',['../classedu_1_1usfca_1_1cs272_1_1_inverted_index.html#a8d09e0397c1e718db762506ba3dfbd69',1,'edu.usfca.cs272.InvertedIndex.getWords()'],['../classedu_1_1usfca_1_1cs272_1_1_thread_safe_inverted_index.html#a463905cdcc229e091ee2931ee180c849',1,'edu.usfca.cs272.ThreadSafeInvertedIndex.getWords()']]]
 ];

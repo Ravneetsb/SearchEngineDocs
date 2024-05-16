@@ -5,6 +5,7 @@ var annotated_dup =
         [ "cs272", null, [
           [ "ArgumentParser", "classedu_1_1usfca_1_1cs272_1_1_argument_parser.html", "classedu_1_1usfca_1_1cs272_1_1_argument_parser" ],
           [ "DatabaseConnector", "classedu_1_1usfca_1_1cs272_1_1_database_connector.html", "classedu_1_1usfca_1_1cs272_1_1_database_connector" ],
+          [ "DownloadServlet", "classedu_1_1usfca_1_1cs272_1_1_download_servlet.html", "classedu_1_1usfca_1_1cs272_1_1_download_servlet" ],
           [ "Driver", "classedu_1_1usfca_1_1cs272_1_1_driver.html", null ],
           [ "FileStemmer", "classedu_1_1usfca_1_1cs272_1_1_file_stemmer.html", null ],
           [ "HtmlCleaner", "classedu_1_1usfca_1_1cs272_1_1_html_cleaner.html", null ],
@@ -17,6 +18,7 @@ var annotated_dup =
           [ "MultiReaderLock", "classedu_1_1usfca_1_1cs272_1_1_multi_reader_lock.html", "classedu_1_1usfca_1_1cs272_1_1_multi_reader_lock" ],
           [ "Processor", "interfaceedu_1_1usfca_1_1cs272_1_1_processor.html", "interfaceedu_1_1usfca_1_1cs272_1_1_processor" ],
           [ "QueryProcessor", "classedu_1_1usfca_1_1cs272_1_1_query_processor.html", "classedu_1_1usfca_1_1cs272_1_1_query_processor" ],
+          [ "ResultTrackerServlet", "classedu_1_1usfca_1_1cs272_1_1_result_tracker_servlet.html", "classedu_1_1usfca_1_1cs272_1_1_result_tracker_servlet" ],
           [ "SearchServer", "classedu_1_1usfca_1_1cs272_1_1_search_server.html", "classedu_1_1usfca_1_1cs272_1_1_search_server" ],
           [ "SearchServlet", "classedu_1_1usfca_1_1cs272_1_1_search_servlet.html", "classedu_1_1usfca_1_1cs272_1_1_search_servlet" ],
           [ "SettingsServlet", "classedu_1_1usfca_1_1cs272_1_1_settings_servlet.html", "classedu_1_1usfca_1_1cs272_1_1_settings_servlet" ],

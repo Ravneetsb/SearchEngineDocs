@@ -8,5 +8,6 @@ var searchData=
   ['default_5fport_5',['DEFAULT_PORT',['../classedu_1_1usfca_1_1cs272_1_1_driver.html#a6a6a6d6fed1e905c4180ee4b6a962ae2',1,'edu::usfca::cs272::Driver']]],
   ['default_5fresults_6',['DEFAULT_RESULTS',['../classedu_1_1usfca_1_1cs272_1_1_driver.html#aecc0d8a12820c2d9b7567309b30fc8f9',1,'edu::usfca::cs272::Driver']]],
   ['default_5fthreads_7',['DEFAULT_THREADS',['../classedu_1_1usfca_1_1cs272_1_1_driver.html#a7fafd4f1f21a3e2edcf9f0410384ede7',1,'edu::usfca::cs272::Driver']]],
-  ['driver_8',['Driver',['../classedu_1_1usfca_1_1cs272_1_1_driver.html',1,'edu::usfca::cs272']]]
+  ['downloadservlet_8',['DownloadServlet',['../classedu_1_1usfca_1_1cs272_1_1_download_servlet.html',1,'edu.usfca.cs272.DownloadServlet'],['../classedu_1_1usfca_1_1cs272_1_1_download_servlet.html#a6068fafe0daa15c96f02449f4d053591',1,'edu.usfca.cs272.DownloadServlet.DownloadServlet()']]],
+  ['driver_9',['Driver',['../classedu_1_1usfca_1_1cs272_1_1_driver.html',1,'edu::usfca::cs272']]]
 ];
